@@ -11,6 +11,7 @@
   inputs.src-grab-master.ref   = "refs/heads/master";
   inputs.src-grab-master.owner = "metagn";
   inputs.src-grab-master.repo  = "grab";
+  inputs.src-grab-master.dir   = "";
   inputs.src-grab-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
